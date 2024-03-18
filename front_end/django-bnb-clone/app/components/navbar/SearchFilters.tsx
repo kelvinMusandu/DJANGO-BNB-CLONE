@@ -8,7 +8,7 @@ const SearchFilters = () => {
                         <p className="text-sm">Wanted location</p>
                     </div>
                     <div className="h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
-                        <p className="text-xs font-semibold">CHeck In</p>
+                        <p className="text-xs font-semibold">Check In</p>
                         <p className="text-sm">Add dates</p>
                     </div>
                     <div className="h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
