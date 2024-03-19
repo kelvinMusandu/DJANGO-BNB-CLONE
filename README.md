@@ -1,1 +1,1 @@
-Welcome to my Clone of BNB where I learn by practicing. I will develop the system with Next.js, Tailwind CSS, TypeScript, Django and PostgresSQL. Anticipating that this should take one month.
+Welcome to my Clone of BNB where I learn by practicing. I will develop the system with Next.js, Tailwind CSS, TypeScript, Django and PostgreSQL. Anticipating that this should take one month.
