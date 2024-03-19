@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import LoginModal from "./components/modals/LoginModal";
 import SignupModal from "./components/modals/SignupModal";
+import AddPropertModal from "./components/modals/AddPropertyModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         </div>
         <LoginModal />
         <SignupModal />
+        <AddPropertModal />
         </body>
     </html>
   );

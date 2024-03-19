@@ -21,7 +21,9 @@ const Navbar = async () => {
                     </div>
 
                     <div className='flex  space-x-6'>
-                        <AddPropertyButton />
+                        <AddPropertyButton
+                            userId={userId}
+                        />
                         <UserNav
                             userId={userId}
                         />
