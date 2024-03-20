@@ -20,6 +20,9 @@ ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 
 AUTH_USER_MODEL = 'useraccount.User'
 
+USE_TZ = True
+TIME_ZONE = 'Africa/Nairobi'
+
 SITE_ID = 1
 
 WEBSITE_URL = 'http://localhost:8000'
