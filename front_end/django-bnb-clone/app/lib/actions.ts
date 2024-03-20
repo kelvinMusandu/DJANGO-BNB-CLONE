@@ -35,3 +35,8 @@ export async function getUserId() {
     const userId = cookies().get('session_userid')?.value //gives a value if session user id is available
     return userId ? userId : null //return null if it does not exist
 }
+
+export async function getAccessToken() {
+    let accessToken = cookies().get('session_access_token')?.value;
+    return accessToken;
+}
