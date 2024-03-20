@@ -23,13 +23,13 @@ const PropertyList: React.FC<PropertyListProps> = ({
     const [properties, setProperties] = useState<PropertyType[]>([]);
     const markFavorite = (id: string, is_favorite: boolean) => {
         const tmpProperties = properties.map((property: PropertyType) => {
-            if(property.id){
+            if (property.id == id) {
                 property.is_favorite = is_favorite
 
                 if (is_favorite){
-                    console.log('added to list of favorited properties')
+                    //console.log('added to list of favorited properties')
                 } else {
-                    console.log('removed from list')
+                    //console.log('removed from list')
                 }
             }
 
