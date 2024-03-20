@@ -23,8 +23,8 @@ def landlord_detail(request, pk):
 def reservations_list(request):
     reservations = request.user.reservations.all()
 
-    print('user', request.user)
-    print(reservations)
+    # print('user', request.user)
+    # print(reservations)
     
     serializer = ReservationsListSerializer(reservations, many=True)
     return JsonResponse(serializer.data, safe=False)
